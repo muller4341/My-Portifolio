@@ -23,7 +23,7 @@ const Footer = () => {
     <EmailIcon />
   </a>
   </div>
-        <h1 className='text-gray-500 text-[15px] mt-4'>Copyright by Muluken Walle @2024
+        <h1 className='text-gray-500 text-[15px] mt-4'>Copyright by Muluken Walle @2025
        </h1>
     </div>
   )

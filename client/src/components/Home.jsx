@@ -1,6 +1,6 @@
 
 import  AppText  from  "../Constants/AppText"
-import  {homeImage2 } from './../assets'
+import  {muller } from './../assets'
 import './Home.css'
 import Typewriter from 'typewriter-effect';
 const Home = () => {
@@ -22,13 +22,13 @@ const Home = () => {
             />
       </div>
           <div>
-           <h1 className='my-5 text-gray-400'>I am Muluken Walle  and I worked as Developer and currently I am a Computer Engineering Student</h1>
+           <h1 className='my-5 text-gray-400'>I am Muluken Walle  and I worked as Developer and currently I am a Softwaare developer At CBE</h1>
           </div>
             <button className="hover:z-50 transition-all duration-300 ease-in-out  hover:scale-125 bg-yellow-600 p-2 rounded-md text-white">Resume</button>
     </div>
  </div>
         <div className=' w-full flex justify-center'>
-          <img src={homeImage2}  className="w-[200px] md:w-[350px]"/>
+          <img src={muller}  className="w-[200px] md:w-[350px]"/>
         </div>
 </div>
   )

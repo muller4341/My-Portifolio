@@ -28,6 +28,7 @@ import facebook from './Facebook.png'
 import linkdin from './LinkedIn.png'
 import MinT1 from './MinT1.png'
 import mint from './mint.jpg'
+import muller from'./muller.jpg'
 
 
 
@@ -39,7 +40,7 @@ import mint from './mint.jpg'
 
 export {
     logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
-    homeImage2,aflacLogo,wiuLogo,
+    muller,aflacLogo,wiuLogo,
     book,
     laptop,
     skill,

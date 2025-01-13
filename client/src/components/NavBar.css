@@ -1,4 +1,78 @@
-.menuItem{
-    margin-right: 25px;
-    cursor: pointer;
-}
+/* General Styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .menuItem a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .menuItem a:hover {
+    color: #007bff; /* Change only color on hover */
+  }
+  
+  /* Mobile Menu Styles */
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the items */
+    gap: 5px; /* Smaller vertical gap between items */
+    list-style: none;
+    padding: 10px; /* Add some padding around the menu container */
+  }
+  
+  .mobileMenu li {
+    width: 120px; /* Small, fixed width for items */
+    height: 40px; /* Small, fixed height for items */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; /* Rounded corners for menu items */
+    background-color: #f9f9f9; /* Light background for better visibility */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .mobileMenu li:hover {
+    background-color: #007bff; /* Change background color on hover */
+  }
+  
+  .mobileMenu li a {
+    color: #000;
+    font-size: 14px; /* Adjust font size */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .mobileMenu li:hover a {
+    color: #fff; /* Text color changes on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .menu {
+      display: none; /* Hide the horizontal menu on small devices */
+    }
+  
+    .mobileMenu {
+      display: flex;
+    }
+  }
+  
