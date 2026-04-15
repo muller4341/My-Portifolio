@@ -7,8 +7,8 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Footer = () => {
   return (
-    <div className='bg-gray-200 mt-10 p-20 items-center flex flex-col  px-10 md:px-80'>
-     <div className='flex gap-4'>
+    <div className='mt-16 rounded-t-[2rem] bg-slate-950 px-10 py-12 text-white shadow-2xl shadow-slate-900/20'>
+     <div className='flex justify-center gap-4'>
      
   <a href="https://www.instagram.com/walle.muller/" target="_blank" rel="noopener noreferrer">
     <InstagramIcon />
@@ -23,7 +23,7 @@ const Footer = () => {
     <EmailIcon />
   </a>
   </div>
-        <h1 className='text-gray-500 text-[15px] mt-4'>Copyright by Muluken Walle @2025
+        <h1 className='mt-5 text-center text-sm text-slate-400'>Copyright by Muluken Walle @2025
        </h1>
     </div>
   )

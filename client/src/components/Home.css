@@ -1,23 +1,30 @@
 .Typewriter{
     font-size: 40px;
-    font-weight: bold;
-
-        --tw-text-opacity: 1;
-        color: rgb(186, 145, 32);
-        
+    font-weight: 800;
+    --tw-text-opacity: 1;
+    color: rgb(180, 122, 0);
 }
 
 @media only screen and (max-width: 600px) {
     .Typewriter{
         font-size: 35px;
-        font-weight: bold;
-    
-            --tw-text-opacity: 1;
-        color:  rgb(186, 145, 32);
+        font-weight: 800;
+        --tw-text-opacity: 1;
+        color: rgb(180, 122, 0);
     }
 }
 
-html {
-    scroll-behavior: smooth;
-  }
+.hero-card {
+  position: relative;
+  isolation: isolate;
+}
+
+.hero-card::before {
+  content: "";
+  position: absolute;
+  inset: 10% 12%;
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.22), transparent 70%);
+  filter: blur(20px);
+  z-index: -1;
+}
   
